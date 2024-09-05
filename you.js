@@ -38,7 +38,7 @@ var audio = document.getElementById('youare-audio').play();
 function bookmark() {
 	if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) {
 		var url = "index.html";
-		var title = "sigma";
+		var title = "jonkler";
 		
 		window.external.AddFavorite(url, title);
 	}
@@ -129,7 +129,7 @@ window.onkeydown = function() {
 	var keyCode = event.keyCode;
 	
 	if (keyCode == 17 || keyCode == 18 || keyCode == 46 || keyCode == 115) {	
-		alert("ni-"); 
+		alert("why so serious"); 
 		proCreate();
 	}
 	
@@ -137,6 +137,6 @@ window.onkeydown = function() {
 }
 
 window.onbeforeunload = function() {
-    return "Are you an idiot?";
+    return "why so serious";
 };
 /* [Oct 2021] End of amendments.. */
